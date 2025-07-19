@@ -4,13 +4,13 @@ import Hero from "./components/Hero";
 import Highlight from "./components/Highlight";
 import HowitWorks from "./components/HowitWorks";
 import Model from "./components/Model";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import * as Sentry from "@sentry/react";
 
 const App = () => {
   return (
     <main className="bg-black">
-      <NavBar />
+      <Navbar />
       <Hero />
       <Highlight />
       <Model />
