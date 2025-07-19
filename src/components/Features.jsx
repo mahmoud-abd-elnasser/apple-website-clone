@@ -55,6 +55,7 @@ const Features = () => {
                 className="w-full h-full object-cover object-center"
                 preload="none"
                 ref={videoRef}
+                loop
               >
                 <source src={exploreVideo} type="video/mp4" />
               </video>
