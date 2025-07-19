@@ -5,7 +5,6 @@ import Highlight from "./components/Highlight";
 import HowitWorks from "./components/HowitWorks";
 import Model from "./components/Model";
 import Navbar from "./components/Navbar";
-import * as Sentry from "@sentry/react";
 
 const App = () => {
   return (
@@ -21,4 +20,4 @@ const App = () => {
   );
 };
 
-export default Sentry.withProfiler(App);
+export default App;
