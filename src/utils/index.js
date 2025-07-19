@@ -2,8 +2,8 @@ import hero from "/assets/images/hero.jpeg";
 
 export const heroImg = hero;
 
-// import hmv from "/assets/videos/hero.mp4";
-// import smallmv from "/assets/videos/smallHero.mp4";
+import hmv from "/assets/videos/hero.mp4";
+import smallmv from "/assets/videos/smallHero.mp4";
 import highlightFirstmv from "/assets/videos/highlight-first.mp4";
 import highlightSectmv from "/assets/videos/hightlight-third.mp4";
 // import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
@@ -29,11 +29,8 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
-export const heroVideo =
-  "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/hero.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS9oZXJvLm1wNCIsImlhdCI6MTc1MjkyNDU5OCwiZXhwIjoxNzg0NDYwNTk4fQ.Cu1JAS4RwJFAcc3xfcxqbeW-Pu32AYD2IuTMMpuSJdw";
-export const smallHeroVideo =
-  "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/smallHero.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS9zbWFsbEhlcm8ubXA0IiwiaWF0IjoxNzUyOTI0NjM1LCJleHAiOjE3ODQ0NjA2MzV9.iUBEqwFj0W9CbekGlXCR0zLnZ9DAxUMTHDWi7tc8GLY";
-export const highlightFirstVideo = highlightFirstmv;
+export const heroVideo = hmv;
+export const smallHeroVideo = smallmv;
 export const highlightSecondVideo = highlightSectmv;
 export const highlightThirdVideo =
   "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/hightlight-sec.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS9oaWdodGxpZ2h0LXNlYy5tcDQiLCJpYXQiOjE3NTI5MjcwMDYsImV4cCI6MTc4NDQ2MzAwNn0.5oIIxMHsvgHRagIQZIWr0_YL7nkiVy8S27sKVMxQRCg";
