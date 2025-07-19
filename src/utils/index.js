@@ -20,10 +20,10 @@ import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
 
-// import yellow from "/assets/images/yellow.jpg";
-// import blue from "/assets/images/blue.jpg";
-// import white from "/assets/images/white.jpg";
-// import black from "/assets/images/black.jpg";
+import yellow from "/assets/images/yellow.jpg";
+import blue from "/assets/images/blue.jpg";
+import white from "/assets/images/white.jpg";
+import black from "/assets/images/black.jpg";
 import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
@@ -52,14 +52,10 @@ export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
 
-export const yellowImg =
-  "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/yellow.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS95ZWxsb3cuanBnIiwiaWF0IjoxNzUyOTI3MzI1LCJleHAiOjE3ODQ0NjMzMjV9.9tPNe09sPQ6lrcwgorZOOVUvua7vM6Nst9T4YTfBk7A";
-export const blueImg =
-  "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/blue.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS9ibHVlLmpwZyIsImlhdCI6MTc1MjkyNzI5OCwiZXhwIjoxNzg0NDYzMjk4fQ.dk_jyp-d85dY2YB1Bowp_Q5KkxHa4roGdcBgllsSlCI";
-export const whiteImg =
-  "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/white.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS93aGl0ZS5qcGciLCJpYXQiOjE3NTI5MjczMTEsImV4cCI6MTc4NDQ2MzMxMX0.xGJa_fG3YoSKIhRmVlv5GHxW5Y5iv05lhG6gnHZox9o";
-export const blackImg =
-  "https://pacmlrbftolukawjqnfi.supabase.co/storage/v1/object/sign/apple/black.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjhiNDg4YS1jYTQyLTQ0NDUtODkwZi00NTJmMzg4MDQ1ZjYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBsZS9ibGFjay5qcGciLCJpYXQiOjE3NTI5MjcyNDQsImV4cCI6MTc4NDQ2MzI0NH0.1ZifswNgOjOnBnYQSK2qAyTfwTW3Ak0qyBtTyyuJe2s";
+export const yellowImg = yellow;
+export const blueImg = blue;
+export const whiteImg = white;
+export const blackImg = black;
 export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;
